@@ -27,8 +27,8 @@
 		line-height: 1.25em;
 	}
 
-	h1 strong:before {
-		content: "<br />";
+	h1 strong {
+		display: block;
 	}
 	
 	h2
