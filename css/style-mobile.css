@@ -26,6 +26,10 @@
 		font-size: 2.25em;
 		line-height: 1.25em;
 	}
+
+	h1 strong:before {
+		content: "<br />";
+	}
 	
 	h2
 	{
@@ -36,10 +40,6 @@
 		margin: 0 0 2em 0;
 	}
 
-		header > h1 {
-			display: block;
-		}
-	
 		header > span
 		{
 			font-size: 1.25em;
